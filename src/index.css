@@ -1,0 +1,15 @@
+@font-face {
+  font-family: myCustomFont;
+  src: url('./assets/fonts/myCustomFont.ttf');
+}
+@font-face {
+  font-family: subHead;
+  src: url('./assets/fonts/Bitcount_Cursive-Medium.ttf');
+}
+
+@theme{
+  --font-custom: myCustomFont, 'sans-serif';
+  --font-subHead: subHead, 'sans';
+}
+
+@import "tailwindcss"; /* This brings in everything needed for Tailwind v4 */
